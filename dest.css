@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  #result{
+    color:red;
+    margin:auto;
+    font-size:20px;
+    background-color:yellow;
+    text-align:center;
+    width:400px;
+    height:150px;
+  }
+  input{
+    width:190px;
+    height:40px;
+    display:block;
+    color:blue;
+    margin:auto;
+    padding:0;
+    font-size: 20px;
+  background-color:gray}
+    
+  
+  button{
+    width:100px;
+    height:30px;
+    font-style:italic;
+    text-transform: capitalise;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+    padding:0;
+    background-color: gray;
+    
+  }
+  h1{
+    text-align:center;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  body{
+    background-color:black
+  }
+  @media (min-width:600px){
+    #result{
+      font-size:40px;
+      width:600px;
+      height:180px;
+    }
+  }
